@@ -6,7 +6,8 @@ function add(n1, n2): number {
 
 add(a, 1);
 
-function isEqual(n1, n2): boolean {
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
+function isEqual(n1: number, n2: number) {
   return n1 === n2;
 }
 
